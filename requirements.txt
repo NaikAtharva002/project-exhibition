@@ -6,3 +6,4 @@ jaxlib<0.4.24
 numpy
 Pillow
 customtkinter
+deep_translator
