@@ -11,7 +11,7 @@ It tracks hand joints using **Google MediaPipe** and classifies the ASL gestures
 * **Lightweight:** Uses an optimized TFLite model, meaning it doesn't require a high-end GPU to run smoothly.
 
 ## Prerequisites
-Make sure you have Python installed. You can install all the required dependencies using the `requirements.txt` file.
+Make sure you have Python 3.9 installed. You can install all the required dependencies using the `requirements.txt` file.
 
 ```bash
 pip install -r requirements.txt
@@ -29,6 +29,7 @@ python app_ui.py
 1. **Video Panel:** Your webcam feed will appear on the left with skeletal landmarks drawn over your hand.
 2. **Current Letter:** The right panel will continuously display the alphabet you are currently signing.
 3. **Sentence Box:** The text box at the bottom will collect your letters to form words.
+4. **Text Translation:** Supports translation of detected text in Hindi, Marathi,Tamil,Telugu,Gujarati,Kannada,Malayalam,Punjabi,Urdu,Odia and Assamese language.
 
 ## Project Structure
 * `app_ui.py`: The main Tkinter application script handling the UI, webcam stream, and prediction logic.
